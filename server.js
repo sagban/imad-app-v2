@@ -6,19 +6,19 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'public/index.html'));
+  res.sendFile(path.join(__dirname, 'ui/public', '/index.html'));
 });
 
 app.get('/css/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'public/css/styles.css'));
+  res.sendFile(path.join(__dirname, 'ui/public', '/css/styles.css'));
 });
 
 app.get('/css/bootstrap.min.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '/public/css/bootstrap.min.css'));
+  res.sendFile(path.join(__dirname, 'ui/public', '/css/bootstrap.min.css'));
 });
 
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/js/markerwithlabel_packed.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/public', '/js/markerwithlabel_packed.js'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
