@@ -50,6 +50,11 @@ app.get('/articles.php', function (req, res) {
 app.get('/update.php', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/public', '/update.php'));
 });
+
+app.get('/../config.json', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/', '/config.json'));
+});
+
 app.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyAncTp6i5N9PWCGCnbvFzKue6dcZG6vW-w', function (req, res) {
   res.sendFile(path.join('https://maps.googleapis.com/maps/api/js?key=AIzaSyAncTp6i5N9PWCGCnbvFzKue6dcZG6vW-w'));
 });
