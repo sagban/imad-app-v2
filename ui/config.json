@@ -1,6 +1,6 @@
 {
     "database": {
-        "host": "https://localhost:8080/",
+        "host": "localhost",
         "name": "pset8",
         "username": "remarkbansal",
         "password": "zrrJ8zNEdpuTwuty"
