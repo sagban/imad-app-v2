@@ -55,6 +55,10 @@ app.get('/../config.json', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/', '/config.json'));
 });
 
+app.get('/../config.json', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/public/img', '/icon31.png'));
+});
+
 app.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyAncTp6i5N9PWCGCnbvFzKue6dcZG6vW-w', function (req, res) {
   res.sendFile(path.join('https://maps.googleapis.com/maps/api/js?key=AIzaSyAncTp6i5N9PWCGCnbvFzKue6dcZG6vW-w'));
 });
