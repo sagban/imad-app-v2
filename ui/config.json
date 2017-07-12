@@ -1,6 +1,6 @@
 {
     "database": {
-        "host": "http://sagban.imad.hasura-app.io/",
+        "host": "server.js",
         "name": "pset8",
         "username": "remarkbansal",
         "password": "zrrJ8zNEdpuTwuty"
