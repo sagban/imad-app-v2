@@ -39,7 +39,17 @@ app.get('/js/typeahead.jquery.min.js', function (req, res) {
 app.get('/js/scripts.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/public', '/js/scripts.js'));
 });
+app.get('/search.php', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/public', '/search.php'));
+});
 
+app.get('/articles.php', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/public', '/articles.php'));
+});
+
+app.get('/update.php', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/public', '/update.php'));
+});
 app.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyAncTp6i5N9PWCGCnbvFzKue6dcZG6vW-w', function (req, res) {
   res.sendFile(path.join('https://maps.googleapis.com/maps/api/js?key=AIzaSyAncTp6i5N9PWCGCnbvFzKue6dcZG6vW-w'));
 });
