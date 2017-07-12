@@ -52,7 +52,7 @@ app.get('/update.php', function (req, res) {
 });
 
 app.get('/../config.json', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/', '/config.json'));
+  res.sendFile(path.join(__dirname, 'ui/', 'config.json'));
 });
 
 app.get('/../config.json', function (req, res) {
