@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/public', '/index.html'));
 });
 
-app.get('/css/style.css', function (req, res) {
+app.get('/css/styles.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/public', '/css/styles.css'));
 });
 
