@@ -1,6 +1,6 @@
 {
     "database": {
-        "host": "https://cloud.imad.hasura.io:8080/",
+        "host": "https://localhost:8080/",
         "name": "pset8",
         "username": "remarkbansal",
         "password": "zrrJ8zNEdpuTwuty"
