@@ -52,7 +52,7 @@ app.get('/update.php', function (req, res) {
 });
 
 
-app.get('/../config.json', function (req, res) {
+app.get('/img/icon31.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/public/img', '/icon31.png'));
 });
 
