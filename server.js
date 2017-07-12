@@ -51,8 +51,8 @@ app.get('/update.php', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/public', '/update.php'));
 });
 
-app.get('/../config.json', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/', 'config.json'));
+app.get('/../includes/config.php', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/includes', '/config.php'));
 });
 
 app.get('/../config.json', function (req, res) {
